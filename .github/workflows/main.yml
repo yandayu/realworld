@@ -56,5 +56,5 @@ jobs:
           cd /root/realword
           wget https://github.com/yandayu/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          yarn install --production
+          npm install --production
           pm2 reload pm2.config.json
