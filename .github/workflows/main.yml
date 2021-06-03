@@ -51,7 +51,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
+        # port: ${{ secrets.PORT }}
         script: |
           cd /root/realword
           wget https://github.com/yandayu/realworld/releases/latest/download/release.tgz -O release.tgz
